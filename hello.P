@@ -1,0 +1,4 @@
+?-writeln('Hello').
+
+//fact(0,1).
+//fact(X,Y) :- X>0, A is X-1, fact(A,B), Y is X*B.
