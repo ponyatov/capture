@@ -1,0 +1,9 @@
+// root class: Thing Вещь
+
+Event	:: Thing.	// Событие a-kind-of Вещи
+Entity	:: Thing.	// Сущность ako Вещи
+
+{DrivingSituation,Action} :: Event.
+DrivingEntity :: Entity. // subclass сущностьВождения
+SpatialEntity :: Entity. // ПространственнаяСущность
+
